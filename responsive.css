@@ -1,0 +1,126 @@
+@media screen and (max-width:768px) {
+    ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+    }
+    ul.show {
+        display: flex;
+    }
+    li {
+        padding: 10px 0;
+    }
+    .hamburger {
+        display: block;
+    }
+    .header {
+        height: 100vh;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .section-1 {
+        width: 100%;
+    }
+    .service{
+        width: 80%;
+    }
+    .main-box{
+        width: 80%;}
+
+    .box{
+        width: 48%;
+    }
+    .section-3{
+        width: 80%;
+        flex-direction: column;
+    }
+    .content-video{
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+    }
+    .images .img{
+        width: 50%;
+    }
+    .team{
+        width: 80%;
+    }
+    .team-image{
+        width: 50%;
+    }
+    .pricing-main{
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .pricing-card{
+        width: 40%;
+    }
+    .pricing-card-2{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .header{
+        background-position: 100% 100%;
+    }
+    .margin-left{
+        margin-left: 4em;
+    }
+    .main-box{
+        width: 100%;
+        justify-content: center;
+    }
+    .section-2{
+        flex-direction: column;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .right-side{
+        width: 100%;
+    }
+
+    .box{
+        width: 90%;
+    }
+    .section-3{
+        width: 100%;
+        flex-direction: column;
+    }
+    .content-video{
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+    }
+    .images .img{
+        width: 100%;
+    }
+    .team{
+        width: 100%;
+    }
+    .team-image{
+        width: 100%;
+    }
+    .pricing-main{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .pricing-card{
+        width: 80%;
+    }
+    .pricing-card-2{
+        width: 90%;
+    }
+    
+}
